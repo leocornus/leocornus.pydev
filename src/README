@@ -1,0 +1,15 @@
+
+symlink the source code in this folder and add the relative path
+to buildout.cfg under develop.
+
+for example:
+
+$ cd src
+$ ln -s /path/to/python/module/my.package my.package
+
+in the buildout.cfg
+
+...
+develop =
+    src/my.package
+...
