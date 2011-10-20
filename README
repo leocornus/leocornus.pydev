@@ -5,3 +5,8 @@ quick as possible.  leocornus.pydev will offer:
  * separate local Python environment.
  * buildout facilities
  * unit testing facilities
+
+How to do unit test.
+
+$ bin/buildout
+$ bin/test
